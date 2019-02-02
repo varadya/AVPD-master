@@ -23,11 +23,7 @@ body {
   grid-gap: 1em;
 }
 
-title{
-color: white; 
-font-family:'Avenir LT W01 65 Medium';
-
-}
+d
 
 header,
 footer {
@@ -48,6 +44,18 @@ HEADER
 ************/
 /* Your Styles */
 
+h1 {
+  color: rgba(249, 134, 12, 0.831);
+  font-size: 22pt;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+  'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h5{
+  color: white;
+  font-family: Georgia, serif;
+}
+
 
 /************
 MOVIE TRAILER w/ MEDIA ELEMENT PLAYER
@@ -55,6 +63,8 @@ MOVIE TRAILER w/ MEDIA ELEMENT PLAYER
 /* Fit <video> to container */
 video {
   max-width: 100%;
+  margin: 0 auto;
+	border: 10px double rgba(249, 134, 12, 0.831);
 }
 
 .mejs__currenttime, 
@@ -63,8 +73,11 @@ video {
 }
 
 .mejs__time-current {
-  background: tomato;
+  background: rgba(249, 134, 12, 0.831);
 }
+
+
+
 
 /************
 ACTORS
