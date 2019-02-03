@@ -50,7 +50,6 @@ HEADER
 h1 {
   color: rgb(255, 132, 0);
   font-size: 36pt;
-
   max-width: 100%;
   margin: 0 auto;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
@@ -67,7 +66,7 @@ h5{
 img{
   width: 350;
   height: 300;
-  float: right;
+  float: center;
 }
 
 
